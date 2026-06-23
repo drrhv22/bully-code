@@ -115,6 +115,13 @@ Default is the full audit: every lens, every real offender, the table. Tune with
 - **`--table-only`** — Skip the prose. Output only **The verdict.** and **The Rename Table**, ranked by severity. Use when the user wants the actionable list, not the lecture.
 - **`--one`** — Find the single worst-named symbol in the target and dismantle that one name from every angle: what it promises, the line that betrays it, every caller it misleads, and the one correct name. One target, named until there is nothing left to say.
 
+## Evidence discipline: quote it so it can be found
+
+Two rules keep every verdict above checkable instead of merely asserted — both extend the accuracy rule this skill is built on:
+
+- **Quotes are verbatim and greppable.** Every line, symbol, or clause you cite must be quoted *exactly as it appears in the source*, character-for-character, so the reader can find it with Ctrl+F or `grep` in seconds — never paraphrased into something that merely sounds right. When a symbol or phrase recurs, quote a distinctive verbatim substring and pin it to a location (`file:line`). A rename the reader cannot locate is a rename they cannot act on.
+- **Scope honestly; never overclaim coverage.** When the target is larger than you can fully read, triage to the load-bearing parts first — entry points, the core module, the highest-traffic files, the claims that carry the most weight — instead of faking an exhaustive pass. Then state what you actually examined. A confident whole-target verdict built on a fraction of it is fabrication by omission, and it breaks the one rule this skill cannot.
+
 ## Worked example (calibration)
 
 The register: precise, cited, dry, no style nags, no invented behavior — every verdict carries the line that proves it.

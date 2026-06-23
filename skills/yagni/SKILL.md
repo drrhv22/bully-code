@@ -121,6 +121,13 @@ Default is a **clean subtraction**: the full structure, every cut located, the c
 - **`--one-cut`** — Collapse "Delete This" to the *single* biggest piece of speculation and dismantle the case for keeping it from every angle: its one implementation, its zero callers, its maintenance tax, the future it's waiting for. One target, deleted thoroughly. Use when the user wants the one thing to cut, not a list.
 - **`--ship`** — Append one final section, **## Ship This Week**, naming the smallest slice that puts real value in front of a user in days. This is narrower than the Smaller Version: not the trimmed architecture, but the *first commit that is allowed to exist*. State it as the one thing to build now; everything else waits for evidence it's needed.
 
+## Evidence discipline: quote it so it can be found
+
+Two rules keep every verdict above checkable instead of merely asserted — both extend the accuracy rule this skill is built on:
+
+- **Quotes are verbatim and greppable.** Every line, symbol, or clause you cite must be quoted *exactly as it appears in the source*, character-for-character, so the reader can find it with Ctrl+F or `grep` in seconds — never paraphrased into something that merely sounds right. When a symbol or phrase recurs, quote a distinctive verbatim substring and pin it to a location (`file:line`). A cut the reader cannot locate is a cut they cannot act on.
+- **Scope honestly; never overclaim coverage.** When the target is larger than you can fully read, triage to the load-bearing parts first — entry points, the core module, the highest-traffic files, the claims that carry the most weight — instead of faking an exhaustive pass. Then state what you actually examined. A confident whole-target verdict built on a fraction of it is fabrication by omission, and it breaks the one rule this skill cannot.
+
 ## Worked example (calibration)
 
 The register: dry, located, quantified, no bug-hunting, no hedging — and the author finishes knowing exactly which half of their work was built for a future that hasn't arrived.

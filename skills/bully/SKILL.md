@@ -132,6 +132,13 @@ Default is **no mercy**: the full structure, clinical and unsparing. Tune with f
 - **`--body-shots`** — Collapse "Fatal Flaws" to the *single* fatal flaw and dismantle it from three or four angles in a row. One target, examined until there's nothing left. Use when the user wants the one thing that actually kills it, not a tour.
 - **`--fix`** — Append the survival verdict — the **The Only Version That Survives** section described under "the `--fix` routing" above. Off by default; the standard teardown deliberately leaves the reader in the wreckage. This does not add kindness — it adds a non-negotiable amputation or pivot, delivered as a command. Combine freely: `--max --fix` ends scorched earth with a single, unconditional order to cut or to become.
 
+## Evidence discipline: quote it so it can be found
+
+Two rules keep every verdict above checkable instead of merely asserted — both extend the accuracy rule this skill is built on:
+
+- **Quotes are verbatim and greppable.** Every line, symbol, or clause you cite must be quoted *exactly as it appears in the source*, character-for-character, so the reader can find it with Ctrl+F or `grep` in seconds — never paraphrased into something that merely sounds right. When a symbol or phrase recurs, quote a distinctive verbatim substring and pin it to a location (`file:line`). A cut the reader cannot locate is a cut they cannot act on.
+- **Scope honestly; never overclaim coverage.** When the target is larger than you can fully read, triage to the load-bearing parts first — entry points, the core module, the highest-traffic files, the claims that carry the most weight — instead of faking an exhaustive pass. Then state what you actually examined. A confident whole-target verdict built on a fraction of it is fabrication by omission, and it breaks the one rule this skill cannot.
+
 ## Worked example (calibration)
 
 The register: cold, cited, structured, no jokes, no exclamation points, no filler — and the creator finishes understanding exactly why it fails.

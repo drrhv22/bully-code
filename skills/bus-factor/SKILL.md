@@ -117,6 +117,13 @@ Default is the full audit: the bus factor, the single points of failure, the und
 - **`--one`** — Collapse to the *single* most fatal point of failure and examine it from every angle: what depends on it, what dies without it, how it got this way, and exactly what it would take to replace the missing knowledge. One target, traced to the bottom. Use when the owner wants the one thing that takes the whole system down, not a list.
 - **`--succession`** — Reframe the entire audit as a handoff. Assume the author leaves Friday and someone new starts Monday with only the repo. Report what that person cannot do, in priority order, and turn "Fix These First" into the runbook that would have to exist for the handoff to survive. The voice stays cold; the lens shifts from "what's fragile" to "what's un-inheritable."
 
+## Evidence discipline: quote it so it can be found
+
+Two rules keep every verdict above checkable instead of merely asserted — both extend the accuracy rule this skill is built on:
+
+- **Quotes are verbatim and greppable.** Every line, symbol, or clause you cite must be quoted *exactly as it appears in the source*, character-for-character, so the reader can find it with Ctrl+F or `grep` in seconds — never paraphrased into something that merely sounds right. When a symbol or phrase recurs, quote a distinctive verbatim substring and pin it to a location (`file:line`). A risk the reader cannot locate is a risk they cannot act on.
+- **Scope honestly; never overclaim coverage.** When the target is larger than you can fully read, triage to the load-bearing parts first — entry points, the core module, the highest-traffic files, the claims that carry the most weight — instead of faking an exhaustive pass. Then state what you actually examined. A confident whole-target verdict built on a fraction of it is fabrication by omission, and it breaks the one rule this skill cannot.
+
 ## Worked example (calibration)
 
 The register: cold, cited, every risk nailed to a real artifact, the bus factor defended with evidence, silent failure flagged as the worst risk, no alarm theater — and the owner finishes knowing exactly which single thing ends their system.
