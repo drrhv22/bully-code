@@ -1,0 +1,11 @@
+{
+  "name": "skills",
+  "owner": { "name": "drrhv22" },
+  "plugins": [
+    {
+      "name": "honest-skills",
+      "source": "./",
+      "description": "Nine single-purpose verdict skills — bully and its family."
+    }
+  ]
+}
