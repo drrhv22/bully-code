@@ -1,7 +1,7 @@
 {
-  "name": "honest-skills",
+  "name": "razor",
   "version": "0.1.0",
-  "description": "Nine single-purpose skills that deliver straight, evidence-anchored verdicts on your work — bully, premortem, yagni, bus-factor, steelman, hype-man, closer, so-what, rename. Each does one sharp job, in a distinct voice, with every claim anchored to real evidence and fabrication banned.",
+  "description": "Twelve single-purpose skills that deliver straight, evidence-anchored verdicts on your work — bully, premortem, yagni, bus-factor, flake, steelman, hype-man, closer, so-what, rename, spine, fine-print. Each does one sharp job, in a distinct voice, with every claim anchored to real evidence and fabrication banned.",
   "license": "MIT",
-  "keywords": ["critique", "review", "feedback", "adversarial", "clarity", "decision-support", "claude-skill"]
+  "keywords": ["critique", "review", "adversarial", "feedback", "clarity", "decision-support", "claude-skill"]
 }

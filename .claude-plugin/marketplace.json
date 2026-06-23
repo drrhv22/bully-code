@@ -1,11 +1,11 @@
 {
-  "name": "skills",
+  "name": "razor",
   "owner": { "name": "drrhv22" },
   "plugins": [
     {
-      "name": "honest-skills",
+      "name": "razor",
       "source": "./",
-      "description": "Nine single-purpose verdict skills — bully and its family."
+      "description": "Twelve single-purpose verdict skills — bully and its family."
     }
   ]
 }

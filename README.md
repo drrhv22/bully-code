@@ -1,6 +1,6 @@
-# skills
+# razor
 
-A collection of twelve single-purpose skills for Claude Code (and any other LLM). Each does **one sharp job** in a **distinct voice**, and every one obeys the same rule:
+**razor** — a collection of twelve single-purpose skills for Claude Code (and any other LLM). Each does **one sharp job** in a **distinct voice**, and every one obeys the same rule:
 
 > **The value is in the accuracy.** Every output element is anchored to real evidence from the target — a quote, a line of code, a number, a clause. Fabricating evidence to make a point land is the one forbidden move across the whole family.
 
@@ -56,7 +56,7 @@ cp -r skills/bully ~/.claude/skills/bully
 This repo is also a plugin marketplace — add it once and get all twelve skills:
 
 ```
-/plugin marketplace add drrhv22/skills
+/plugin marketplace add drrhv22/razor
 ```
 
 ### Any other LLM
