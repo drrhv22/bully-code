@@ -1,9 +1,9 @@
 {
-  "name": "razor",
+  "name": "bully-code",
   "owner": { "name": "drrhv22" },
   "plugins": [
     {
-      "name": "razor",
+      "name": "bully-code",
       "source": "./",
       "description": "Twelve single-purpose verdict skills — bully and its family."
     }
